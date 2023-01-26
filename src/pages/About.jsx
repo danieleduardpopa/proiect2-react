@@ -6,7 +6,7 @@ function About() {
         <div>
             <Layout>
                 <h1>About</h1>
-                <p>Blabla</p>
+                <h2>DonDonWear 2022</h2>
             </Layout>
         </div>
     )
