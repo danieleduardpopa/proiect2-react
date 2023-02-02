@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-function About() {
+function About(props) {
     return (
-        <div>
-            <Layout>
+        <Layout>
+            <div>   
                 <h1>About</h1>
                 <h2>DonDonWear 2022</h2>
-            </Layout>
-        </div>
+            </div>
+        </Layout>
     )
 }
 

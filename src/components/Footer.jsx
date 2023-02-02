@@ -9,7 +9,7 @@ import './Footer.css';
 function Footer() {
     return (
         <footer className='pt-3 bg-light'>
-            <div className='container-fluid container-min-max-width
+            <div className='container container-min-max-width
                                 d-flex justify-content-between'>
                 <div>
                     <h5>Link-uri:</h5>
