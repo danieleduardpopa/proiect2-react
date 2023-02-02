@@ -3,3 +3,13 @@
     height: auto;
     
 }
+
+.logout:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.favorites > img {
+    width: 50px;
+    height: auto;
+}
