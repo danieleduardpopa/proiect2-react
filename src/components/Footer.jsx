@@ -11,31 +11,29 @@ function Footer() {
         <footer className='pt-3 bg-light'>
             <div className='container container-min-max-width
                                 d-flex justify-content-between'>
-                <div>
+                <div className="footer-group d-flex flex-column">
                     <h5>Link-uri:</h5>
-                    <p  className="mb-1">
-                        <Link to='/about'> About </Link>
-                    </p>
-                    <p className="m-0">
-                        <Link to='/terms-and-conditions'> Termeni si conditii </Link>
-                    </p>
+                    <Link to='/about' className="text-dark"> About </Link>
+                    <Link to='/terms-and-conditions' className='text-dark'> Termeni si conditii </Link>
                 </div>
-                <div>
+                <div className="footer-group">
                     <h5>Contact</h5>
-                    <p className="mb-1">
+                    <p className='m-0'>
                         <a href='mailto:danieleduardpopa@gmail.com'>
-                        <Mail className="mr-1 mb-1 footer-icon"/> danieleduardpopa@gmail.com
+                            <Mail className="mr-1 mb-1 footer-icon"/> danieleduardpopa@gmail.com
                         </a>
                     </p>
                     <p className="m-0">
                         <Phone className="mr-1 footer-icon"/> +40 771 125 903
                     </p>
                 </div>
-                <div>
+                <div className="footer-group">
                     <h5>Contact</h5>
-                    <a href="https://github.com/semisemizeu">
-                        <p className="mb-1"><GitHub className="mr-1 mb-1 footer-icon"/> semisemizeu</p>
-                    </a>
+                    <p className="m-0">
+                        <a href="https://github.com/semisemizeu">
+                            <p className="mb-1"><GitHub className="mr-1 mb-1 footer-icon"/> semisemizeu</p>
+                        </a>
+                    </p>
                 </div>
             </div>
             <div className="copy-right text-center py-3">
@@ -46,3 +44,4 @@ function Footer() {
 }
 
 export default Footer
+

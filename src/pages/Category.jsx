@@ -55,7 +55,7 @@ function Category() {
             <Layout >
                 <div className="container container-min-max-width">
                     <div className='row' >
-                        <div className='col-3'>
+                        <div className='col-md-3 col-6'>
                             <BaseListSidebar 
                                 onRangeChange={handleRangeChange}
                                 range1={range1} 
@@ -64,7 +64,7 @@ function Category() {
                                 currency={currency}
                             />
                         </div>
-                        <div className='col-9'>
+                        <div className='col-md-9 col-6'>
                             <div className='container'>
                                     <h2>{category.name}</h2>
                                     <ProductList products={filteredItems} />

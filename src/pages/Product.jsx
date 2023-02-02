@@ -35,17 +35,17 @@ function Product(props) {
                     {prodItem.name}
                 </div>
                 <div className='row justify-content-between'>
-                    <div className='col-4'>
+                    <div className='col-md-4 col-6'>
                         <img src={prodItem.image} alt='produs' className='rounded w-75' />
                     </div>
-                    <div className='col-3 border rounded  my-auto mx-1 h6'>
+                    <div className='col-md-3 col-12 border rounded  my-auto mx-1 h6'>
                         <p>Brand: {prodItem.brand}</p>
                         <p className=''>Culoare: {prodItem.colour}</p>
                         <p>Marime: {prodItem.size}</p>
                         <p>Material: {prodItem.material}</p>
                         <p>Descriere: {prodItem.description}</p>
                     </div>
-                    <div className='col-3 d-flex rounded flex-column my-auto mx-2 p-2 bg-light'>
+                    <div className='col-md-3 col-6 d-flex rounded flex-column my-auto mx-2 p-2 bg-light'>
                         <p className='border rounded text-center'>Pret: {prodItem.price} {prodItem.currency}</p>
                         <button className='strong btn btn-dark'
                             onClick={() => props.addToCart({

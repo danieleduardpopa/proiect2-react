@@ -25,7 +25,9 @@ function ProductItem(props) {
       const isFavorite = favoriteProduct.length > 0;
 
       return (
-        <div className='product-item col-4 d-flex flex-column align-items-center mb-2 '>
+        <div className='product-item 
+          border rounded col-12 col-md-4 d-flex 
+          flex-column align-items-center mb-2 m-2 p-1'>
           <Link 
             to={`/product/${id}`} 
             className='d-flex flex-column align-items-center'
