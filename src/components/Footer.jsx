@@ -30,8 +30,8 @@ function Footer() {
                 <div className="footer-group">
                     <h5>Contact</h5>
                     <p className='m-0'>
-                        <a href="https://github.com/semisemizeu">
-                            <p className="mb-1"><GitHub className="mr-1 mb-1 footer-icon"/> semisemizeu</p>
+                        <a href="https://github.com/danieleduardpopa">
+                            <p className="mb-1"><GitHub className="mr-1 mb-1 footer-icon"/> danieleduardpopa</p>
                         </a>
                     </p>
                 </div>
