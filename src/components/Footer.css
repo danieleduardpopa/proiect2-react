@@ -1,6 +1,9 @@
-footer svg {
-    width: 24px;
-    height: 24px;
-    text-decoration: none;
-}
+@media (max-width: 768px) {
+    footer > div {
+        flex-direction: column;
+    }
 
+    footer .footer-group {
+        margin-bottom: 1.5rem;
+    }
+}
