@@ -18,13 +18,14 @@ function BaseListSidebar(props) {
   
     
   return (
-    <div className=''>
-                
-      <h4>Pret</h4>
-      <div className='d-flex'>
-        <label htmlFor="range1"className='w-50 mr-4'>
+    <div className='container'>
+      <div className='row justify-content-start'>
+        <h4>Pret:</h4>
+      </div>          
+      <div className='row justify-content-between align-items-center border rounded mb-2'>
+        <p className='col-md-10 col-8 my-auto'>
           {props.range1[0]}...{props.range1[1]} {props.currency}
-        </label>
+        </p>
         
         <input 
           type="radio" 
@@ -33,13 +34,14 @@ function BaseListSidebar(props) {
           id="range1"
           onChange={handleRangeChange}
           checked={selectedRange === "1"}
+          className='col-md-2 col-4 '
         />
       </div>
 
-      <div>
-        <label htmlFor="range2" className='w-50 mr-4'>
+      <div className='row justify-content-between align-items-center border rounded mb-2'>
+        <p className='col-md-10 col-8 my-auto'>
           {props.range2[0]}...{props.range2[1]} {props.currency}
-        </label>
+        </p>
         <input 
           type="radio" 
           name="pricing" 
@@ -47,13 +49,14 @@ function BaseListSidebar(props) {
           id="range2"
           onChange={handleRangeChange}
           checked={selectedRange === "2"}
-                  />
+          className='col-md-2 col-4 '
+        />
       </div>
 
-      <div>
-        <label htmlFor="range3" className='w-50 mr-4'>
+      <div  className='row justify-content-between align-items-center border rounded mb-2'>
+        <p className='col-md-10 col-8 my-auto'>
           {props.range3[0]}...{props.range3[1]} {props.currency}
-        </label>
+        </p>
         <input 
           type="radio" 
           name="pricing" 
@@ -61,10 +64,11 @@ function BaseListSidebar(props) {
           id="range3"
           onChange={handleRangeChange}
           checked={selectedRange === "3"}
+          className='col-md-2 col-4 '
         />
         
       </div>
-      <button onClick={resetFilter} className='btn btn-outline-dark'>
+      <button onClick={resetFilter} className='btn btn-outline-dark mt-2'>
         RESET FILTER
       </button>
     </div>           

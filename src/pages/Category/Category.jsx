@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
-import Layout from '../components/Layout';
-import products from '../utils/products.json';
-import ProductList from '../components/ProductList';
-import BaseListSidebar from '../components/BaseListSidebar';
+import Layout from '../../components/Layout/Layout';
+import products from '../../utils/products.json';
+import ProductList from '../../components/ProductList/ProductList';
+import BaseListSidebar from '../../components/BaseListSidebar/BaseListSidebar';
 
 
 function Category() {
@@ -21,7 +21,7 @@ function Category() {
         setItems( products[categoryName].items);
         setFilteredItems(products[categoryName].items)
         setPrices(products[categoryName].items.map(item => item.price))
-    }, []);
+    }, [categoryName]);
         
     
     const priceMin = Math.min(...prices);
@@ -55,7 +55,7 @@ function Category() {
             <Layout >
                 <div className="container container-min-max-width">
                     <div className='row' >
-                        <div className='col-md-3 col-6'>
+                        <div className='col-md-3 col-5 mt-2'>
                             <BaseListSidebar 
                                 onRangeChange={handleRangeChange}
                                 range1={range1} 
@@ -65,10 +65,8 @@ function Category() {
                             />
                         </div>
                         <div className='col-md-9 col-6'>
-                            <div className='container'>
                                     <h2>{category.name}</h2>
                                     <ProductList products={filteredItems} />
-                            </div>
 
                         </div>
 

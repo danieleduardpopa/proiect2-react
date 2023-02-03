@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Logo from '../assets/images/logo2.png';
+import Logo from '../../assets/images/logo2.png';
 import { useEffect } from 'react';
 import './Login.css';
 import { connect } from 'react-redux';
-import { loginUser } from '../redux/actions/user';
+import { loginUser } from '../../redux/actions/user';
 import { GoogleButton } from 'react-google-button';
 
 

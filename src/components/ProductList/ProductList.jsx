@@ -1,12 +1,11 @@
 import React from 'react';
-import ProductItem from './ProductItem';
+import ProductItem from '../ProductItem/ProductItem';
 
 function ProductList(props) {
   const {products} = props;
   
   return (
-    <div className='container'>
-      <div className='row mb-4'>
+    <div className='row'>
 
         {
           products
@@ -24,7 +23,6 @@ function ProductList(props) {
               })
             : null
         }
-      </div>
     </div>
   )
 }

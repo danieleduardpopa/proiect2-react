@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Layout from '../components/Layout';
-import HomeCategory from '../components/HomeCategory';
-import products from '../utils/products.json';
+import Layout from '../../components/Layout/Layout';
+import HomeCategory from '../../components/HomeCategory/HomeCategory';
+import products from '../../utils/products.json';
 
 
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
     return (
         <Layout>
             <div>
-                <div className="container">
+                <div className="container container-min-max-width">
                     <div className="row">
                         {
                             categories.map((category, index) => {

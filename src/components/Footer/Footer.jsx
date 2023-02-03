@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ReactComponent as Mail } from '../assets/icons/mail.svg';
-import { ReactComponent as Phone } from '../assets/icons/phone.svg';
-import { ReactComponent as GitHub } from '../assets/icons/github.svg';
-import { ReactComponent as CopyRight } from '../assets/icons/copy-right.svg';
+import { ReactComponent as Mail } from '../../assets/icons/mail.svg';
+import { ReactComponent as Phone } from '../../assets/icons/phone.svg';
+import { ReactComponent as GitHub } from '../../assets/icons/github.svg';
+import { ReactComponent as CopyRight } from '../../assets/icons/copy-right.svg';
 import './Footer.css';
 
 function Footer() {
@@ -31,7 +31,10 @@ function Footer() {
                     <h5>Contact</h5>
                     <p className='m-0'>
                         <a href="https://github.com/danieleduardpopa">
-                            <p className="mb-1"><GitHub className="mr-1 mb-1 footer-icon"/> danieleduardpopa</p>
+                            <p className="mb-1">
+                                <GitHub className="mr-1 mb-1 footer-icon"/>
+                                danieleduardpopa
+                            </p>
                         </a>
                     </p>
                 </div>

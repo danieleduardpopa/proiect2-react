@@ -4,3 +4,7 @@
     border-radius: 10px;
 }
 
+.fav-item img {
+    width: 30px;
+    height: auto;
+}
