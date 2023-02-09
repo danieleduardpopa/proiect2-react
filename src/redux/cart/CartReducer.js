@@ -1,10 +1,12 @@
+import { ADD_TO_CART, REMOVE_FROM_CART } from "./CartConstants";
+
 const initialState = {
     products: []
 }
 
 function cartReducer(state = initialState, action) {
     switch (action.type) {
-        case 'ADD_TO_CART':
+        case ADD_TO_CART:
             let isProductInCart = false;
             const productsUpdated = state.products.map(product => {
                 if (product.id === action.payload.product.id) {
@@ -39,7 +41,7 @@ function cartReducer(state = initialState, action) {
             
             
 
-        case 'REMOVE_FROM_CART':
+        case REMOVE_FROM_CART:
             return {
                 ...state,
                 products: [
