@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
-import {removeFromFavorites} from '../../redux/actions/favorites';
+import {removeFromFavorites} from '../../redux/favorites/FavoritesActions';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 

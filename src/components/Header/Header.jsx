@@ -4,7 +4,7 @@ import logo from '../../assets/images/logo2.png';
 import './Header.css';
 import { ReactComponent as ShoppingCart } from '../../assets/icons/shopping-cart.svg';
 import { connect } from 'react-redux';
-import { logoutUser } from '../../redux/actions/user';
+import { logoutUser } from '../../redux/user/UserActions';
 import  heart  from '../../assets/icons/heart-empty.svg';
 import heartFull from '../../assets/icons/heart.svg';
 
