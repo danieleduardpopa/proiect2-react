@@ -1,41 +1,45 @@
-# Getting Started with Create React App
+# JavaScript Advanced - React - Proiectul 2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Magazinul online dondonwear este cel de-al doilea proiect din cadrul cursului JavaScript Advanced - React de la Telecom Academy.  
 
-## Available Scripts
 
-In the project directory, you can run:
+## Functionalitati
 
-### `npm start`
+* Click pe orice categorie - va lista produsele corespunzatoare
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Click pe orice produs  - doar produsul ales va fi afisat 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Click pe butonul "Adauga in cos" al fiecarui produs(fie din pagina de categorie, fie din pagina de produs) - produsul va fi adaugat in cos. Iconita corepsunzatoare se actualizeaza daca produsul nu exista deja in cos
 
-### `npm test`
+* Click pe produs - va duce catre pagina produsului
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Click pe "Login" - va redirecta catre pagina de Login, unde la click pe butonul "Google login" veti fi redirectionati catre pagina corespunzatoare
 
-### `npm run build`
+* Click pe cos(iconita) - va afisa produsele adaugate in cos. La click pe iconita "X" puteti elimina un produs din cos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Click pe iconita "inima" din header pentru a vizualiza produsele adaugate in lista de favorite - daca sunt produse in lista, iconita este plina; daca lista este goala, iconita este doar conturata
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Click pe iconita "inima" din pagina de categorie din dreptul unui produs pentru a il adauga in Lista de Favorite - daca produsul este in lista, iconita este plina; 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Click pe filtrare din pagina de categorie pentru a filtra produsele in functie de pret; cele 3 intervale de filtrare se seteaza dinamic in functie de produsele afisate: (Pretul_maxim - Pretul_minim)/3
 
-### `npm run eject`
+* Click pe RESET FILTER - se reseteaza filtrul de pret
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Pentru a rula local proiectul
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. `git clone https://github.com/danieleduardpopa/proiect2-react.git`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. `cd proiect2-react`
+
+3. `npm install`
+
+4. `npm start`
+
+
+
+## Dependinte folosite
+
+* Am folosit Hooks deoarece varianta de react-router nu permite folosirea de clase;
+
 
