@@ -5,7 +5,7 @@ function Page404() {
     return (
         <div className='container d-flex flex-column'>
             <h1>Page404</h1>
-            <p>Page not found</p>
+            <h2>Page not found</h2>
             <Link to='/'>Return Home</Link>
         </div>
     )
