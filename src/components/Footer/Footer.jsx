@@ -31,10 +31,10 @@ function Footer() {
                     <h5>Contact</h5>
                     <p className='m-0'>
                         <a href="https://github.com/danieleduardpopa">
-                            <p className="mb-1">
+                            <span className="mb-1">
                                 <GitHub className="mr-1 mb-1 footer-icon"/>
                                 danieleduardpopa
-                            </p>
+                            </span>
                         </a>
                     </p>
                 </div>
