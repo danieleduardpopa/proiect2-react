@@ -19,7 +19,6 @@ function App() {
       <div>
         <Routes>
           <Route path='/' element={ <Home />} />
-          <Route path='*' element={ <Page404 /> } />
           <Route path='/about' element={ <About /> } />
           <Route path='/favorites' element={ <Favorites /> } />
           <Route path='/login' element={ <Login /> } />
@@ -27,6 +26,7 @@ function App() {
           <Route path='/category/:categoryName' element={ <Category />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/product/:productId' element={ <Product /> } />
+          <Route path='*' element={ <Page404 /> } />
         </Routes>
       </div>
     )
