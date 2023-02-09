@@ -3,234 +3,246 @@
         "items": [
             {
                 "id": 1,
-                "name": "Sneakerși piele Massimo Dutti",
-                "price": 135,
+                "name": "Pantofi Emporio Armani",
+                "price": 2000,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/Rz8lVQa.jpg",
-                "size": 45,
+                "image": "https://i.imgur.com/avtwN9E.jpg",
+                "size": 43,
                 "colour": "Negru",
                 "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Sneakerși din piele cu talpă inițial albă, din colecția de toamnă-iarnă 2019, Massimo Dutti."
+                "brand": "EMPORIO ARMANI",
+                "description": "Pantofi de inalta calitate, greutate 360g"
             },
             {
                 "id": 2,
-                "name": "Teniși negri Polo Ralph Lauren",
-                "price": 100,
+                "name": "Pantofi Bugatti",
+                "price": 400,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/Og3Oh24.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Pânză",
-                "brand": "Polo Ralph Lauren",
-                "description": "Teniși din pânză cu talpă inițial albă, din colecția de primăvară-vară 2019, Fashion Days."
+                "image": "https://i.imgur.com/23NN1Ec.jpg",
+                "size": 41,
+                "colour": "Maro",
+                "material": "Piele si panza",
+                "brand": "BUGATTI",
+                "description": "Pantofi de inalta calitate, piele si panza, marca Bugatti"
             },
             {
                 "id": 3,
-                "name": "Ghete din piele maro Massimo",
-                "price": 185,
+                "name": "Pantofi Lloyd",
+                "price": 629,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/zoqSu87.jpg",
-                "size": 45,
+                "image": "https://i.imgur.com/d3r7Bbf.jpg",
+                "size": 44,
                 "colour": "Maro",
                 "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
+                "brand": "LLOYD",
+                "description": "Pantofi eleganti din piele de la Lloyd"
             }
         ],
-        "image": "https://i.imgur.com/X0qldXO.jpg",
-        "name": "Încălțăminte",
-        "description": "Ghete, pantofi, sneakerși: finețe garantată!"
+        "image": "https://i.imgur.com/EgZZSiz.jpg",
+        "name": "Pantofi",
+        "description": "Pantofi eleganți, de ocazie"
     },
-    "sweaters": {
+    "sport_shoes": {
         "items": [
             {
                 "id": 4,
-                "name": "Pulovăr finuț cu guler",
-                "price": 95,
+                "name": "Pantofi Adidas",
+                "price": 739,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/6afzuEr.jpg",
-                "size": "L",
-                "colour": "Maro",
-                "material": "Cașmir",
-                "brand": "DS Damat",
-                "description": "Pulovăr din cașmir, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "image": "https://i.imgur.com/3o0WYEI.jpg",
+                "size": "42",
+                "colour": "Negru",
+                "material": "Material",
+                "brand": "ADIDAS",
+                "description": "Pantofi Terrex Agravic Flow 2"
             },
             {
                 "id": 5,
-                "name": "Pulovăr multicolor",
-                "price": 105,
+                "name": "Pantofi sport Adidas",
+                "price": 249,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/s0VytKc.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "McNeal",
-                "description": "Pulovăr multicolor, colecția toamnă-iarnă 209, McNeal."
+                "image": "https://i.imgur.com/PtMcOaF.jpg",
+                "size": "41",
+                "colour": "Gri",
+                "material": "Material",
+                "brand": "ADIDAS",
+                "description": "Pantofi Runfalcon 2.0"
             },
             {
                 "id": 6,
-                "name": "Pulovăr călduros și frumos",
-                "price": 165,
+                "name": "Pantofi Sport Nike",
+                "price": 680,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/BWGgzlK.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Lână",
-                "brand": "SELECTED",
-                "description": "Pulovăr din lână, în carouri, colecția toamnă-iarnă 2019, SELECTED."
+                "image": "https://i.imgur.com/zlnSlXE.jpg",
+                "size": "44",
+                "colour": "Negru",
+                "material": "Material",
+                "brand": "NIKE",
+                "description": "Pantofi Pegasus Trail 3"
             },
             {
                 "id": 7,
-                "name": "Pulovăr din lână",
-                "price": 160,
+                "name": "Pantofi Sport Salomon",
+                "price": 479,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/dTcMbHT.jpg",
-                "size": "L",
-                "colour": "Crem",
-                "material": "Lână",
-                "brand": "Massimo Dutti",
-                "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
+                "image": "https://i.imgur.com/BFPUoF7.jpg",
+                "size": "43",
+                "colour": "Albastru",
+                "material": "Material",
+                "brand": "SALOMON",
+                "description": "Pantofi Sense Ride 4"
             }
         ],
-        "image": "https://i.imgur.com/SZU7liE.jpg",
-        "name": "Pulovere",
-        "description": "Pulovărașe elegănțele, slim, clasă superioară."
+        "image": "https://i.imgur.com/kVIHnoX.jpg",
+        "name": "Pantofi sport",
+        "description": "Pantofi sport pentru alergare sau drumeție"
     },
     "pants": {
         "items": [
             {
                 "id": 8,
-                "name": "Blugi bleumarin slim fit",
-                "price": 35,
+                "name": "Blugi Levi's",
+                "price": 320,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/VhpATO8.jpg",
-                "size": "34",
-                "colour": "Bleumarin închis",
+                "image": "https://i.imgur.com/KTPD1gc.jpg",
+                "size": "29 x 32",
+                "colour": "Albastru",
                 "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi bleumarin, slim fit, colecția primăvară-vară 2019, DS Damat."
+                "brand": "LEVI'S",
+                "description": "Blugi straight leg"
             },
             {
                 "id": 9,
-                "name": "Blugi negri slim fit",
+                "name": "Blugi BOSS Orange",
                 "price": 40,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/weiI07t.jpg",
-                "size": "34",
-                "colour": "Negru-gri",
+                "image": "https://i.imgur.com/SLzwWkg.jpg",
+                "size": "31 x 30",
+                "colour": "Bleumarin",
                 "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "brand": "BOSS Orange",
+                "description": "Blugi straight leg"
             }
         ],
-        "image": "https://i.imgur.com/srQCDRN.jpg",
-        "name": "Pantaloni/blugi",
-        "description": "Jeanși și pantaloni pentru baieții care și-o ard patroni!"
+        "image": "https://i.imgur.com/m9XD0r8.jpg",
+        "name": "Jeans",
+        "description": "Jeanși de calitate"
     },
     "jackets": {
         "items": [
             {
                 "id": 10,
-                "name": "Haină lungă din lână virgină",
-                "price": 210,
+                "name": "Geacă Jack&Jones",
+                "price": 310,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/IXrZitQ.jpg",
+                "image": "https://i.imgur.com/0N3C6sS.jpg",
                 "size": "L",
-                "colour": "Gri închis",
-                "material": "Lână virgină",
-                "brand": "Peek and Cloppenburg",
-                "description": "Haină lungă din lână virgină, colecția toamnă-iarnă 2018, Peek and Cloppenburg."
+                "colour": "Maro caramel",
+                "material": "Imitație de piele",
+                "brand": "JACK&JONES",
+                "description": "Geacă de primăvară-toamnă 'Rocky'"
             },
             {
                 "id": 11,
-                "name": "Geacă bleumarin cu glugă detașabilă",
-                "price": 250,
+                "name": "Geacă Karl Lagerfeld",
+                "price": 2800,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/eCZd7PU.jpg",
-                "size": "L",
-                "colour": "Bleumarin",
-                "material": "Poliester",
-                "brand": "DS Damat",
-                "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
+                "image": "https://i.imgur.com/tfFs0E0.jpg",
+                "size": "M",
+                "colour": "Negru",
+                "material": "Piele",
+                "brand": "Karl Lagerfeld",
+                "description": "Geacă de primăvară-toamnă"
             }
         ],
-        "image": "https://i.imgur.com/81I6Oab.jpg",
-        "name": "Geci/Haine",
-        "description": "Confortabile, călduroase și nu arăți ca un cartof!"
+        "image": "https://i.imgur.com/fOeUezA.jpg",
+        "name": "Geci",
+        "description": "Geci mereu in pas cu moda..."
+    },
+    "shirts": {
+        "items": [
+            {
+                "id": 12,
+                "name": "Cămașă Jack&Jones",
+                "price": 90,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/Z5COHHG.jpg",
+                "size": "L",
+                "colour": "Negru",
+                "material": "80% Bumbac, 20% Poliester",
+                "brand": "JACK&JONES",
+                "description": "Cămașă 'CARL'"
+            },
+            {
+                "id": 13,
+                "name": "Cămașă TOMMY HILFIGER",
+                "price": 550,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/6O058L2.jpg",
+                "size": "L",
+                "colour": "Albastru",
+                "material": "Bumbac",
+                "brand": "TOMMY HILFIGER",
+                "description": "Cămașă regular fit"
+            },
+            {
+                "id": 14,
+                "name": "Cămașă Tom Taylor",
+                "price": 290,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/BIhXUFt.jpg",
+                "size": "M",
+                "colour": "Portocaliu",
+                "material": "Bumbac",
+                "brand": "Tom Taylor",
+                "description": "Cămașă regular fit"
+            }
+        ],
+        "image": "https://i.imgur.com/v1oHfPc.jpg",
+        "name": "Cămăși",
+        "description": "Și de băiețeală și de ocazie."
     },
     "tshirts": {
         "items": [
             {
-                "id": 12,
-                "name": "Tricou în dungi",
-                "price": 90,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/BWvzCwB.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "Lacoste",
-                "description": "Tricou în dungi, colecția primăvară-vară 2019, Lacoste."
-            },
-            {
-                "id": 13,
-                "name": "Tricou de ping pong",
-                "price": 110,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/4BbF4TO.jpg",
-                "size": "L",
-                "colour": "Roșu",
-                "material": "Poliester",
-                "brand": "Li Ning",
-                "description": "Tricou de ping pong cu imprimeu cu dragon, purtat de jucatorii naționalei chinei în 2013."
-            },
-            {
-                "id": 14,
-                "name": "Tricou original BVB cu autograf",
-                "price": 290,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/etIsbHV.jpg",
-                "size": "L",
-                "colour": "Galben-Negru",
-                "material": "Poliester",
-                "brand": "Puma",
-                "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
-            }
-        ],
-        "image": "https://i.imgur.com/l27WtFL.jpg",
-        "name": "Tricouri",
-        "description": "Și de băiețeală și de sport."
-    },
-    "accesories": {
-        "items": [
-            {
                 "id": 15,
-                "name": "Fular TJ cu două fețe",
-                "price": 85,
+                "name": "Tricou Hugo",
+                "price": 310,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/rSVUiLO.jpg",
-                "size": "Universal",
-                "colour": "Gri-Bleumarin",
-                "material": "Cașmir",
-                "brand": "Trussardi Jeans",
-                "description": "Fular cu imprimeu, din colecția toamnă-iarnă 2018, Trussardi Jeans."
+                "image": "https://i.imgur.com/SniM9Jc.jpg",
+                "size": "L",
+                "colour": "Negru",
+                "material": "Bumbac",
+                "brand": "HUGO",
+                "description": "Tricou 'Dedigree'"
             },
             {
                 "id": 16,
-                "name": "Mănuși din piele",
-                "price": 60,
+                "name": "Tricou Adidas",
+                "price": 99,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/LbjGaZ1.jpg",
-                "size": "L",
+                "image": "https://i.imgur.com/Jxx1fhN.jpg",
+                "size": "M",
                 "colour": "Negru",
-                "material": "Piele",
-                "brand": "DS Damat",
-                "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
+                "material": "Bumbac",
+                "brand": "ADIDAS",
+                "description": "Tricou cu cusături ton in ton"
+            },
+            {
+                "id": 17,
+                "name": "Tricou Jordan",
+                "price": 130,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/b3TRtkF.jpg",
+                "size": "M",
+                "colour": "Negru",
+                "material": "Bumbac",
+                "brand": "JORDAN",
+                "description": "Tricou din material delicat"
             }
         ],
-        "image": "https://i.imgur.com/qw3wDj8.jpg",
-        "name": "Accesorii",
-        "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
+        "image": "https://i.imgur.com/z4l9x9P.jpg",
+        "name": "Tricouri",
+        "description": "Tricouri originale"
     }
 }
