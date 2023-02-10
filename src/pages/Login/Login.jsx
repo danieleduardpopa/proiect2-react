@@ -4,7 +4,7 @@ import Logo from '../../assets/images/logo2.png';
 import { useEffect } from 'react';
 import './Login.css';
 import { connect } from 'react-redux';
-import { loginUser, loginUserFacebook, loginUserGoogle } from '../../redux/user/UserActions';
+import {  loginUserFacebook, loginUserGoogle } from '../../redux/user/UserActions';
 import { GoogleButton } from 'react-google-button';
 
 
