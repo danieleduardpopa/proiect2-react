@@ -1,5 +1,6 @@
-import  { signInWithGoogle, signOutUser  } from '../../apis/firebase';
+import  { signInWithFacebook, signInWithGoogle, signOutUser  } from '../../apis/firebase';
 import { START_LOADING, UPDATE_ERROR, UPDATE_USER_DATA } from './UserConstants';
+import { getAuth, linkWithPopup } from 'firebase/auth';
 
 export function startLoading() {
     return {
@@ -21,12 +22,28 @@ export function updateError(payload) {
     }
 }
 
-export function loginUser() {
+const auth = getAuth();
+
+export function loginUserGoogle() {
     return (dispatch) => {
         dispatch(startLoading());
 
         signInWithGoogle().then((response) => {
             const payload = response.user;
+            dispatch(updateUserData(payload));
+        }).catch((error) => {
+            dispatch(updateError(error))
+        })
+    }
+}
+
+export function loginUserFacebook() {
+    return (dispatch) => {
+        dispatch(startLoading());
+
+        signInWithFacebook().then((response) => {
+            const payload = response.user;
+            
             dispatch(updateUserData(payload));
         }).catch((error) => {
             dispatch(updateError(error))
