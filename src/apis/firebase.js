@@ -1,4 +1,3 @@
-import * as firebase from 'firebase/app';
 import 'firebase/auth';
 import { initializeApp } from 'firebase/app';
 import firebaseConfig from '../configs/firebase';
