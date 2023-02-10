@@ -1,6 +1,6 @@
 import  { signInWithFacebook, signInWithGoogle, signOutUser  } from '../../apis/firebase';
 import { START_LOADING, UPDATE_ERROR, UPDATE_USER_DATA } from './UserConstants';
-import { getAuth, linkWithPopup } from 'firebase/auth';
+
 
 export function startLoading() {
     return {
@@ -22,7 +22,7 @@ export function updateError(payload) {
     }
 }
 
-const auth = getAuth();
+
 
 export function loginUserGoogle() {
     return (dispatch) => {
