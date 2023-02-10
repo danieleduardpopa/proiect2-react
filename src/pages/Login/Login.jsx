@@ -4,14 +4,14 @@ import Logo from '../../assets/images/logo2.png';
 import { useEffect } from 'react';
 import './Login.css';
 import { connect } from 'react-redux';
-import { loginUser } from '../../redux/user/UserActions';
+import { loginUser, loginUserFacebook, loginUserGoogle } from '../../redux/user/UserActions';
 import { GoogleButton } from 'react-google-button';
 
 
 
 function Login(props) {
     const navigate = useNavigate();
-    const { loginUser, userData } = props;
+    const { loginUserGoogle, userData, loginUserFacebook } = props;
     
     useEffect(() => {
         if(userData) {
@@ -28,10 +28,14 @@ function Login(props) {
             <h1 className="h2">Login</h1>
             <p>Alege providerul cu care vrei să vrei să te loghezi:</p>
 
-            <GoogleButton onClick={() => loginUser()}>
+            <GoogleButton onClick={() => loginUserGoogle()}>
             </GoogleButton>
 
-            
+            <button
+                className='btn btn-outline-dark mt-2' 
+                onClick={() => loginUserFacebook() }>
+                    FACEBOOK
+            </button>
         </div>
     )
 }
@@ -44,7 +48,8 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
     return {
-        loginUser: () => { dispatch(loginUser()) }
+        loginUserGoogle: () => { dispatch(loginUserGoogle()) },
+        loginUserFacebook: () => { dispatch(loginUserFacebook()) }
     }
 }
 
