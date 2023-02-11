@@ -18,7 +18,7 @@ function Home() {
    
     return (
         <Layout>
-            <div>
+            
                 <div className="container container-min-max-width">
                     <div className="row">
                         {
@@ -37,7 +37,7 @@ function Home() {
                     </div>
                 </div>
 
-            </div>
+            
         </Layout>
     )
 
