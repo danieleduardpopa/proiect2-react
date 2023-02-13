@@ -3,6 +3,11 @@
 Magazinul online dondonwear este cel de-al doilea proiect din cadrul cursului JavaScript Advanced - React de la Telecom Academy.  
 
 
+## Demo
+
+https://main--effulgent-muffin-e4133e.netlify.app/
+
+
 ## Functionalitati
 
 * Click pe orice categorie - va lista produsele corespunzatoare
@@ -13,7 +18,9 @@ Magazinul online dondonwear este cel de-al doilea proiect din cadrul cursului Ja
 
 * Click pe produs - va duce catre pagina produsului
 
-* Click pe "Login" - va redirecta catre pagina de Login, unde la click pe butonul "Google login" veti fi redirectionati catre pagina corespunzatoare
+* Click pe "Login" - va redirecta catre pagina de Login, 
+
+* Click pe butonul "Google login" sau "Facebook" pentru logoare cu providerul ales
 
 * Click pe cos(iconita) - va afisa produsele adaugate in cos. La click pe iconita "X" puteti elimina un produs din cos
 
